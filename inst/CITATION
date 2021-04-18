@@ -1,0 +1,24 @@
+citHeader("Please cite the individual stimulus set:\n
+* london/smiling: Face Research Lab London Set\n
+* composite: Young adult composite faces")
+
+bibentry(
+  bibtype = "Misc",
+  title = "Face Research Lab London Set",
+  author = as.person("Lisa DeBruine [aut], Benedict Jones [aut]"),
+  year = "2017",
+  publisher = "figshare",
+  url = "https://figshare.com/articles/dataset/Face_Research_Lab_London_Set/5047666/5",
+  doi = "10.6084/m9.figshare.5047666.v5"
+)
+
+bibentry(
+  bibtype = "Misc",
+  title = "Young adult composite faces",
+  author = as.person("Lisa DeBruine [aut]"),
+  year = "2016",
+  publisher = "figshare",
+  url = "https://figshare.com/articles/figure/Young_adult_composite_faces/4055130/1",
+  doi = "10.6084/m9.figshare.4055130.v1"
+)
+
