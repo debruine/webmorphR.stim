@@ -7,10 +7,10 @@ Demo stimulus sets for use with [webmorphR](https://debruine.github.io/webmorphR
 
 ## Installation
 
-You can install the development version of stimsets from GitHub with:
+You can install the development version of webmorphR.stim from GitHub with:
 
 ``` r
-remotes::install_github("debruine/stimsets")
+remotes::install_github("debruine/webmorphR.stim")
 ```
 
 Please cite the individual stimulus sets if you use them in publications:
