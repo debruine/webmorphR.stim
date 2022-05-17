@@ -100,4 +100,18 @@ test_that("load_stim_lisa", {
   expect_equal(names(x), c("lisa1", "lisa4"))
 })
 
+# rainbow ----
+test_that("load_stim_rainbow", {
+  all <- load_stim_rainbow()
+  expect_equal(length(all), 18)
+  expect_equal(class(all), c("stimlist", "list"))
+
+  two <- load_stim_rainbow(1:2)
+  expect_equal(length(two), 2)
+  expect_equal(names(two), names(all)[1:2])
+
+  x <- load_stim_rainbow("reptile|poppy")
+  expect_equal(length(x), 2)
+})
+
 

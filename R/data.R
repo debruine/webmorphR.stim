@@ -24,3 +24,20 @@
 #' }
 #' @source \url{https://figshare.com/articles/dataset/Young_Adult_White_Faces_with_Manipulated_Versions/4220517?file=7825783}
 "canada_info"
+
+#' Rainbow Set Information
+#'
+#' A dataset containing information on the 18 images in the rainbow image set. These images are from [Pixabay](https://pixabay.com), all using the [Pixabay License](https://pixabay.com/service/license/), so they are free for commercial and noncommercial use without attribution.
+#'
+#' @format A data frame with 18 rows and 8 variables:
+#' \describe{
+#'   \item{photo_name}{the name of the phto inthe simulus set}
+#'   \item{photo_id}{the numeric ID from Pixabay}
+#'   \item{photographer}{the photographer's name}
+#'   \item{user_name}{the photographer's pixabay username}
+#'   \item{user_id}{the photographer's pixabay user ID}
+#'   \item{colour}{the general colour of the image}
+#'   \item{type}{whether the image is an animal, landscape, or flower}
+#'   \item{url}{the pixabay URL for the image}
+#' }
+"rainbow_info"

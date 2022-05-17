@@ -60,3 +60,18 @@ read_stim("inst/lisa/")  |>
   plot(padding = 5, maxwidth = 1000, nrow = 1) |>
   write_stim("man/figures/", "lisa", "jpg",
              overwrite = TRUE)
+
+## rainbow composite
+order <- rainbow_info |>
+  dplyr::arrange(type, colour) |>
+  dplyr::pull(photo_name)
+
+read_stim("inst/rainbow/")[order]  |>
+  pad(50, 0, 0, 0) |>
+  mlabel(gravity = "north",
+         location = "+0+5",
+         size = 40,
+         color = "black") |>
+  plot(padding = 5, maxwidth = 1000, nrow = 3) |>
+  write_stim("man/figures/", "rainbow", "jpg",
+             overwrite = TRUE)

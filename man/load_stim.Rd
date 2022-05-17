@@ -8,10 +8,11 @@
 \alias{load_stim_smiling}
 \alias{load_stim_composite}
 \alias{load_stim_lisa}
+\alias{load_stim_rainbow}
 \title{Load image set}
 \usage{
 load_stim(
-  set = c("london", "smiling", "composite", "canada", "lisa", "zoom"),
+  set = c("london", "smiling", "composite", "canada", "lisa", "zoom", "rainbow"),
   pattern = NULL
 )
 
@@ -26,21 +27,23 @@ load_stim_smiling(pattern = NULL)
 load_stim_composite(pattern = NULL)
 
 load_stim_lisa(pattern = NULL)
+
+load_stim_rainbow(pattern = NULL)
 }
 \arguments{
 \item{set}{name of the image set}
 
-\item{pattern}{Vector of patterns to use to search for files, or a vector of image indices (e.g., 1:4 selects the first 4 images and their templates if they exist)}
+\item{pattern}{Vector of patterns to use to search for files, or a vector of image indices}
 }
 \value{
 a list with class stimlist
 }
 \description{
-Load image set
+Load image sets as a stimlist, ready for processing with webmorphR functions.
 }
 \examples{
 # loads the first 5 images in the set
-stim <- load_stim("canada", 1:5)
+stim <- load_stim("rainbow", 1:5)
 
 # loads all images with 3 digits and m
 canada_male <- load_stim("canada", "[0-9]{3}m")

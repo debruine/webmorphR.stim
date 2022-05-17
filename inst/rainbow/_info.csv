@@ -1,1 +1,19 @@
-photo_name,photo_id,photographer,user_name,user_id,colour,typebled-2608425_640,2608425,David Mark,12019,12019,purple,landscapebright-4642061_640,4642061,Nika Akin,nika_akin,13521770,purple,animalbutterfly-142506_640,142506,Garoch,garoch,10307,blue,animalcardinal-2872966_640,2872966,Jill Wellington,jillwellington,334088,red,animalflower-2071522_640,2071522,NaturePhoto,naturephoto,193442,green,flowerflowers-3215188_640,3215188,CANDICE CANDICE,candiix,7097598,orange,flowerforest-931706_640,931706,Pixabay,Pixabay,NA,green,landscapefox-715588_640,715588,Alain Audet,alainaudet,631535,orange,animalhydrangea-3673120_640,3673120,9883074,9883074,9883074,purple,flowerlake-1581879_640,1581879,David Mark,12019,12019,blue,landscapelavenders-1537694_640,1537694,Rebekka D,castleguard,2970404,purple,flowerlemon-doktorfisch-793384_640,793384,M W,efraimstochter,12351,yellow,animalmountains-615428_640,615428,Jorg Peter,jpeter2,697843,yellow,landscapepoppy-2447327_640,2447327,Anja,cocoparisienne,127419,red,flowerreptile-2042906_640,2042906,StormmillaGirl,stormmillagirl,749682,green,animalroad-1072821_640,1072821,Valiphotos,valiphotos,1720744,orange,landscapesunflower-1627193_640,1627193,Ulrike Leone,ulleo,1834854,yellow,flowertree-736885_640,736885,Pixabay,Pixabay,NA,red,landscape
+photo_name,photo_id,photographer,user_name,user_id,colour,type,url
+bled-2608425_640,2608425,David Mark,12019,12019,purple,landscape,https://pixabay.com/photos/church-lake-sunset-reflection-2608425/
+bright-4642061_640,4642061,Nika Akin,nika_akin,13521770,purple,animal,https://pixabay.com/photos/bright-purple-jelly-sea-jellies-4642061/
+butterfly-142506_640,142506,Garoch,garoch,10307,blue,animal,https://pixabay.com/photos/butterfly-insect-animal-142506/
+cardinal-2872966_640,2872966,Jill Wellington,jillwellington,334088,red,animal,https://pixabay.com/photos/cardinal-bird-red-holly-berries-2872966/
+flower-2071522_640,2071522,NaturePhoto,naturephoto,193442,green,flower,https://pixabay.com/photos/flower-green-nature-2071522/
+flowers-3215188_640,3215188,CANDICE CANDICE,candiix,7097598,orange,flower,https://pixabay.com/photos/flowers-orange-orange-petals-3215188/
+forest-5524569_640,5524569,Kanenori,Kanenori,4749850,green,landscape,https://pixabay.com/photos/river-stream-spring-cascade-water-5524569/
+fox-715588_640,715588,Alain Audet,alainaudet,631535,orange,animal,https://pixabay.com/photos/fox-nature-animals-roux-fauna-715588/
+hydrangea-3673120_640,3673120,9883074,9883074,9883074,purple,flower,https://pixabay.com/photos/hydrangea-blossoms-close-up-3673120/
+wyoming-4786394_640,4786394,Sharon Kehl Califano ,srkcalifano,12075014,blue,landscape,https://pixabay.com/photos/wyoming-grand-teton-teton-landscape-4786394/
+lavenders-1537694_640,1537694,Rebekka D,castleguard,2970404,purple,flower,https://pixabay.com/photos/lavenders-bees-pollinate-1537694/
+lemon-doktorfisch-793384_640,793384,M W,efraimstochter,12351,yellow,animal,https://pixabay.com/photos/lemon-surgeonfish-lemon-doctor-fish-793384/
+mountains-615428_640,615428,Jorg Peter,jpeter2,697843,yellow,landscape,https://pixabay.com/photos/mountains-village-trees-hills-615428/
+poppy-2447327_640,2447327,Anja,cocoparisienne,127419,red,flower,https://pixabay.com/photos/poppies-flowers-field-red-poppies-2447327/
+reptile-2042906_640,2042906,StormmillaGirl,stormmillagirl,749682,green,animal,https://pixabay.com/photos/reptile-lizard-green-exotic-zoo-2042906/
+road-1072821_640,1072821,Valiphotos,valiphotos,1720744,orange,landscape,https://pixabay.com/photos/road-forest-fall-path-trail-trees-1072821/
+sunflower-1627193_640,1627193,Ulrike Leone,ulleo,1834854,yellow,flower,https://pixabay.com/photos/sunflower-yellow-flower-pollen-1627193/
+tree-736885_640,736885,Bessi,bessi,909086,red,landscape,https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/
