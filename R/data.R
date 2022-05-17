@@ -11,3 +11,16 @@
 #' }
 #' @source \url{https://figshare.com/articles/dataset/Face_Research_Lab_London_Set/5047666?file=27397184}
 "london_info"
+
+#' Canada Set Information
+#'
+#' A dataset containing information on the 40 faces in the Young Adult White Faces with Manipulated Versions image set.
+#'
+#' @format A data frame with 40 rows and 3 variables:
+#' \describe{
+#'   \item{face_id}{face's ID}
+#'   \item{face_gender}{face's gender (female, male)}
+#'   \item{face_age}{face's age (17-35 years)}
+#' }
+#' @source \url{https://figshare.com/articles/dataset/Young_Adult_White_Faces_with_Manipulated_Versions/4220517?file=7825783}
+"canada_info"
