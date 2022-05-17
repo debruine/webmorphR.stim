@@ -1,4 +1,4 @@
-# webmorphR.stim ![](man/figures/logo.png){style="float:right; width:200px;"}
+# webmorphR.stim <img src="man/figures/logo.png" style="float:right; width:200px;" />
 
 <!-- badges: start -->
 <!-- badges: end -->
