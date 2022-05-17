@@ -36,6 +36,10 @@ All individuals gave signed consent for their images to be "used in lab-based an
     
 <cite>CC-BY: DeBruine, L., & Jones, B. (2017). Face Research Lab London Set (Version 5). figshare. <https://doi.org/10.6084/m9.figshare.5047666.v5></cite>
 
+``` r
+load_stim_london()
+```
+
 ![](man/figures/london.jpg)
 
 ### smiling
@@ -43,6 +47,10 @@ All individuals gave signed consent for their images to be "used in lab-based an
 Smiling versions of the 102 individuals in the London set.
     
 <cite>CC-BY: DeBruine, L., & Jones, B.. (2017). Face Research Lab London Set (Version 5). figshare. <https://doi.org/10.6084/m9.figshare.5047666.v5></cite>
+
+``` r
+load_stim_smiling()
+```
 
 ![](man/figures/smiling.jpg)
 
@@ -53,17 +61,29 @@ This image set comprises 5 male and 5 female composite images (4 individuals per
 
 <cite>CC-BY: DeBruine, Lisa (2016): Young adult composite faces. figshare. <https://doi.org/10.6084/m9.figshare.4055130.v1></cite>
 
+``` r
+load_stim_composite()
+```
+
 ![](man/figures/composite.jpg)
 
 ### lisa
 
 Four images of the same person with varying face size, position and rotation.
 
+``` r
+load_stim_lisa()
+```
+
 ![](man/figures/lisa.jpg)
 
 ### zoom
 
 Four images of the same person with varying head-to-camera distance (only very approximately 15, 30, 45 and 60 cm).
+
+``` r
+load_stim_zoom()
+```
 
 ![](man/figures/zoom.jpg)
 
@@ -72,6 +92,10 @@ Four images of the same person with varying head-to-camera distance (only very a
 This image set contains images of 20 male and 20 female young adult White students from a university in Ontario, Canada. The images have been aligned on pupils and delineated using WebMorph.org. All images are JPGs at 1350x1800 pixels.
 
 <cite>CC-BY: DeBruine, L., & Jones, B.. (2017).Young Adult White Faces with Manipulated Versions (Version1). figshare. <https://doi.org/10.6084/m9.figshare.4220517.v1></cite>
+
+``` r
+load_stim_canada()
+```
 
 ![](man/figures/canada.jpg)
 

@@ -17,9 +17,10 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
 Depends: 
     R (>= 2.10)
+Imports: 
+    webmorphR (>= 0.0.2.9001)
 Suggests: 
     testthat (>= 3.0.0)
-    webmorphR (>= 0.0.2.9002)
 Remotes:  
     debruine/webmorphR
 Config/testthat/edition: 3
