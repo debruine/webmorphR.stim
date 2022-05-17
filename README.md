@@ -1,9 +1,9 @@
-# stimsets
+# webmorphR.stim ![](man/figures/logo.png){style="float:right; width:200px;"}
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-Demo stimulus sets for use with [webmorphR](https://debruine.github.io/webmorphR).
+Stimulus sets for use with [webmorphR](https://debruine.github.io/webmorphR).
 
 ## Installation
 

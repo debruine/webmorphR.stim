@@ -1,6 +1,8 @@
 citHeader("Please cite the individual stimulus set:\n
 * london/smiling: Face Research Lab London Set\n
-* composite: Young adult composite faces")
+* composite: Young adult composite faces\n
+* canada: Young Adult White Faces with Manipulated Versions\n
+* rainbow: See rainbow_info for individual image credits")
 
 bibentry(
   bibtype = "Misc",
@@ -22,3 +24,12 @@ bibentry(
   doi = "10.6084/m9.figshare.4055130.v1"
 )
 
+bibentry(
+  bibtype = "Misc",
+  title = "Young Adult White Faces with Manipulated Versions",
+  author = as.person("Lisa DeBruine [aut], Benedict Jones [aut]"),
+  year = "2017",
+  publisher = "figshare",
+  url = "https://figshare.com/articles/dataset/Young_Adult_White_Faces_with_Manipulated_Versions/4220517/1","
+  doi = "10.6084/m9.figshare.4220517.v1"
+)
