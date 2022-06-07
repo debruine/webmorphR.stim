@@ -75,3 +75,17 @@ read_stim("inst/rainbow/")[order]  |>
   plot(padding = 5, maxwidth = 1000, nrow = 3) |>
   write_stim("man/figures/", "rainbow", "jpg",
              overwrite = TRUE)
+
+
+## 3dsk
+s <- load_stim_3dsk()
+s |> pad(1, fill = 'black') |>
+  pad(200, 0, 0, 0) |>
+  label() |>
+  plot(nrow = 5) |>
+  write_stim("man/figures/", "3dsk", "jpg",
+             overwrite = TRUE)
+
+# s2 <- s |> rename_stim(pattern = "(fe)?male/", replacement = "")
+# write_stim(s2[1:50], "~/Desktop/3dsk/female", format = "jpg", quality = 90)
+# write_stim(s2[51:100], "~/Desktop/3dsk/male", format = "jpg", quality = 90)

@@ -20,6 +20,9 @@ A data frame with 102 rows and 4 variables:
 london_info
 }
 \description{
-A dataset containing information on the 102 faces in the Face Research Lab London Set
+A dataset containing information on the 102 faces in the Face Research Lab London Set. Corresponds to demo sets \code{load_stim_neutral()} and\code{load_stim_smiling()}.
+}
+\examples{
+head(london_info)
 }
 \keyword{datasets}

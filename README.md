@@ -1,8 +1,7 @@
 # webmorphR.stim
 
-<img src="man/figures/logo.png" style="float:right; width:200px;" />
-
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 Stimulus sets for use with [webmorphR](https://debruine.github.io/webmorphR).
@@ -17,7 +16,7 @@ remotes::install_github("debruine/webmorphR.stim")
 
 Please cite the individual stimulus sets if you use them in publications:
 
-### london
+### neutral
 
 Images are of 102 adult faces 1350x1350 pixels in full colour. Template files mark out 189 coordinates delineating face shape, for use with Psychomorph or WebMorph.org.
 
@@ -28,7 +27,7 @@ All individuals gave signed consent for their images to be "used in lab-based an
 <cite>CC-BY: DeBruine, L., & Jones, B. (2017). Face Research Lab London Set (Version 5). figshare. <https://doi.org/10.6084/m9.figshare.5047666.v5></cite>
 
 ``` r
-load_stim_london()
+load_stim_neutral()
 ```
 
 ![](man/figures/london.jpg)
@@ -37,7 +36,7 @@ load_stim_london()
 
 Smiling versions of the 102 individuals in the London set.
     
-<cite>CC-BY: DeBruine, L., & Jones, B.. (2017). Face Research Lab London Set (Version 5). figshare. <https://doi.org/10.6084/m9.figshare.5047666.v5></cite>
+<cite>CC-BY: DeBruine, L., & Jones, B. (2017). Face Research Lab London Set (Version 5). figshare. <https://doi.org/10.6084/m9.figshare.5047666.v5></cite>
 
 ``` r
 load_stim_smiling()
@@ -58,9 +57,22 @@ load_stim_composite()
 
 ![](man/figures/composite.jpg)
 
+### 3dsk
+
+This image set comprises 50 White men and 50 White women ages 18-35. These images are derived from images at [www.3D.sk](https://www.3D.sk), purchased by Lisa DeBruine and Benedict Jones under their [commercial license](https://www.3d.sk/static/commercial-terms), which allows for sharing and publication of derivative images for *educational use*. 
+
+<cite>CC-BY: DeBruine L, Jones B (2020). 3DSK face set with webmorph templates. OSF.
+  <https://doi.org/10.17605/OSF.IO/A3947></cite>
+
+``` r
+load_stim_3dsk()
+```
+
+![](man/figures/3dsk.jpg)
+
 ### lisa
 
-Four images of the same person with varying face size, position and rotation.
+CC-0: Four images of the same person with varying face size, position and rotation.
 
 ``` r
 load_stim_lisa()
@@ -70,7 +82,7 @@ load_stim_lisa()
 
 ### zoom
 
-Four images of the same person with varying head-to-camera distance (only very approximately 15, 30, 45 and 60 cm).
+CC-0: Four images of the same person with varying head-to-camera distance (only very approximately 15, 30, 45 and 60 cm).
 
 ``` r
 load_stim_zoom()

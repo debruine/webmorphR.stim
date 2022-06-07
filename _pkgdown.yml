@@ -1,0 +1,48 @@
+url: https://debruine.github.io/webmorphR.stim/
+
+development:
+  mode: auto
+
+home:
+  title: Demo Stimuli for webmorphR
+  description: Stimulus sets and related data for use with webmorphR.
+
+authors:
+  Lisa DeBruine:
+    href: https://debruine.github.io/
+  Benedict Jones:
+    href: https://orcid.org/0000-0001-7777-0220
+
+template:
+  bootstrap: 5
+  bootswatch: yeti
+  bslib:
+    primary: "#204969"
+    base_font: {google: "Nunito"}
+    heading_font: {google: "Nunito"}
+  opengraph:
+    image:
+      src: man/figures/logo.png
+      alt: "webmorphR.stim logo: a blue hexagon with several simplified white wireframe faces"
+    twitter:
+      creator: "@lisadebruine"
+      site: "@webmorph_org"
+      card: summary
+
+navbar:
+  structure:
+    left: [intro, reference, articles, news]
+    right: [twitter, figshare, osf, github]
+  components:
+    twitter:
+      icon: fa-twitter
+      href: https://twitter.com/webmorph_org
+      aria-label: Twitter
+    figshare:
+      icon: "ai-figshare"
+      href: "https://figshare.com/search?q=webmorph%20psychomorph"
+      aria-label: Figshare
+    osf:
+      icon: "ai-osf"
+      href: "https://osf.io/search/?q=webmorph,psychomorph"
+      aria-label: OSF

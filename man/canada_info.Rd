@@ -19,6 +19,9 @@ A data frame with 40 rows and 3 variables:
 canada_info
 }
 \description{
-A dataset containing information on the 40 faces in the Young Adult White Faces with Manipulated Versions image set.
+A dataset containing information on the 40 faces in the Young Adult White Faces with Manipulated Versions image set. Corresponds to demo set \code{load_stim_canada()}.
+}
+\examples{
+head(canada_info)
 }
 \keyword{datasets}

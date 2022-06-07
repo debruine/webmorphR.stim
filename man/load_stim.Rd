@@ -4,21 +4,26 @@
 \alias{load_stim}
 \alias{load_stim_canada}
 \alias{load_stim_london}
+\alias{load_stim_neutral}
 \alias{load_stim_zoom}
 \alias{load_stim_smiling}
 \alias{load_stim_composite}
 \alias{load_stim_lisa}
 \alias{load_stim_rainbow}
+\alias{load_stim_3dsk}
 \title{Load image set}
 \usage{
 load_stim(
-  set = c("london", "smiling", "composite", "canada", "lisa", "zoom", "rainbow"),
+  set = c("neutral_front", "smiling_front", "3dsk", "composite", "canada", "lisa",
+    "zoom", "rainbow"),
   pattern = NULL
 )
 
 load_stim_canada(pattern = NULL)
 
 load_stim_london(pattern = NULL)
+
+load_stim_neutral(pattern = NULL)
 
 load_stim_zoom(pattern = NULL)
 
@@ -29,6 +34,8 @@ load_stim_composite(pattern = NULL)
 load_stim_lisa(pattern = NULL)
 
 load_stim_rainbow(pattern = NULL)
+
+load_stim_3dsk(pattern = NULL)
 }
 \arguments{
 \item{set}{name of the image set}
@@ -39,7 +46,17 @@ load_stim_rainbow(pattern = NULL)
 a list with class stimlist
 }
 \description{
-Load image sets as a stimlist, ready for processing with webmorphR functions.
+Load image sets as a stimlist, ready for processing with webmorphR functions. See Details below for citation links.
+}
+\details{
+\itemize{
+\item neutral/smiling: CC-BY \url{https://doi.org/10.6084/m9.figshare.5047666.v5}
+\item composite: CC-BY \url{https://doi.org/10.6084/m9.figshare.4055130.v1}
+\item canada: CC-BY \url{https://doi.org/10.6084/m9.figshare.4220517.v1}
+\item 3dsk: \url{https://doi.org/10.17605/OSF.IO/A3947}, via \url{https://www.3d.sk} for educational use only
+\item lisa/zoom: CC-0 images of the package creator
+\item rainbow: see \code{rainbow_info} for individual image credits
+}
 }
 \examples{
 # loads the first 5 images in the set

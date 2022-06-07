@@ -1,14 +1,22 @@
 Package: webmorphR.stim
 Title: Stimulus Sets for webmorphR
-Version: 0.0.0.9001
+Version: 0.0.0.9002
+Date: 2022-06-06
 Authors@R: 
-    person(
+    c(person(
         given = "Lisa", 
         family = "DeBruine", 
         role = c("aut", "cre"), 
         email = "debruine@gmail.com", 
         comment = c(ORCID = "0000-0002-7523-5539")
-    )
+    ),
+    person(
+        given = "Benedict", 
+        family = "Jones", 
+        role = c("aut"), 
+        email = "benedict.jones@strath.ac.uk", 
+        comment = c(ORCID = "0000-0001-7777-0220")"
+    ))
 Description: Provides demo stimulus sets for use with the package webmorphR.
 License: CC BY 4.0
 Encoding: UTF-8

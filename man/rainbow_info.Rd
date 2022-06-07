@@ -21,6 +21,9 @@ A data frame with 18 rows and 8 variables:
 rainbow_info
 }
 \description{
-A dataset containing information on the 18 images in the rainbow image set. These images are from \href{https://pixabay.com}{Pixabay}, all using the \href{https://pixabay.com/service/license/}{Pixabay License}, so they are free for commercial and noncommercial use without attribution.
+A dataset containing information on the 18 images in the rainbow image set \code{load_stim_rainbow()}. These images are from \href{https://pixabay.com}{Pixabay}, all using the \href{https://pixabay.com/service/license/}{Pixabay License}, so they are free for commercial and noncommercial use without attribution.
+}
+\examples{
+head(rainbow_info)
 }
 \keyword{datasets}
