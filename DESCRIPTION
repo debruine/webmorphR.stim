@@ -13,7 +13,7 @@ Authors@R:
     person(
         given = "Benedict", 
         family = "Jones", 
-        role = c("aut"), 
+        role = c("ctr"), 
         email = "benedict.jones@strath.ac.uk", 
         comment = c(ORCID = "0000-0001-7777-0220")"
     ))
