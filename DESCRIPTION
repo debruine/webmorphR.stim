@@ -15,7 +15,7 @@ Authors@R:
         family = "Jones", 
         role = c("ctr"), 
         email = "benedict.jones@strath.ac.uk", 
-        comment = c(ORCID = "0000-0001-7777-0220")"
+        comment = c(ORCID = "0000-0001-7777-0220")
     ))
 Description: Provides demo stimulus sets for use with the package webmorphR.
 License: CC BY 4.0
